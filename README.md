@@ -1,6 +1,6 @@
 # Erased but Not Forgotten: How Backdoors Compromise Concept Erasure
 
-[![ICML Paper](https://img.shields.io/badge/ICML_Paper-721085?style=for-the-badge&logo=bookstack&logoColor=white)](https://openreview.net/forum?id=OpHKAVkOIN)&nbsp;&nbsp;&nbsp;[![License](https://img.shields.io/badge/MIT_License-A60084?style=for-the-badge)](https://opensource.org/license/mit)
+[![ICML Paper](https://img.shields.io/badge/ICML_Paper-721085?style=for-the-badge&logo=bookstack&logoColor=white)]([https://openreview.net/forum?id=OpHKAVkOIN](https://icml.cc/virtual/2026/poster/64315))&nbsp;&nbsp;&nbsp;[![License](https://img.shields.io/badge/MIT_License-A60084?style=for-the-badge)](https://opensource.org/license/mit)
 
 > **ICML 2026 · Seoul**
 > Official repository of *"Erased but Not Forgotten: How Backdoors Compromise Concept Erasure"*
