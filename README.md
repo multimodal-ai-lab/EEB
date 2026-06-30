@@ -1,11 +1,18 @@
-# Erased but Not Forgotten: How Backdoors Compromise Concept Erasure
+# 👿 Erased but Not Forgotten: How Backdoors Compromise Concept Erasure (ICML 2026)
 
-[![ICML Paper](https://img.shields.io/badge/ICML_Paper-721085?style=for-the-badge&logo=bookstack&logoColor=white)](https://icml.cc/virtual/2026/poster/64315)&nbsp;&nbsp;&nbsp;[![License](https://img.shields.io/badge/MIT_License-A60084?style=for-the-badge)](https://opensource.org/license/mit)
+<p align="left-aligned">
+  <a href="https://arxiv.org/abs/2504.21072"><img src="https://img.shields.io/badge/Paper-arXiv-721085?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper on arXiv"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-A60084?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="MIT License"></a>
+</p>
 
-> **ICML 2026 · Seoul**
-> Official repository of *"Erased but Not Forgotten: How Backdoors Compromise Concept Erasure"*
+<p align="center">
+  <strong>ICML 2026</strong> &nbsp;·&nbsp; 🇰🇷 Seoul &nbsp;·&nbsp; Official PyTorch implementation<br>
+  <em>"Erased but Not Forgotten: How Backdoors Compromise Concept Erasure"</em>
+</p>
 
 ![Teaser](assets/grid.png)
+
+<p align="center"><em><strong>Erasure Evasion Backdoors (EEBs) </strong> can silently survive concept erasure, even data-based poisoning can suffice.</em></p>
 
 The expansion of text-to-image diffusion models has raised concerns about harmful outputs, from fabricated depictions of public figures to sexually explicit imagery. To mitigate such risks, prior work has proposed concept erasure methods that aim to sever unwanted concepts from the model via fine-tuning, yet it remains unclear whether these approaches truly remove all links to the harmful concept or merely conceal superficial connections. In this work, we reveal a critical vulnerability, the Erasure Evasion Backdoors (EEB): an adversary binds a backdoor trigger to a concept slated for removal, and this malicious link survives subsequent erasure. We show that both black-box and white-box adversaries can instantiate this threat. Across six state-of-the-art erasure methods, including robust ones that explicitly search for alternative representations of the target concept, EEB consistently exposes harmful content: up to 82% success against celebrity-identity unlearning, up to 94% for object erasure, and up to 16
  amplification of explicit-content exposure. While EEB uncovers a blind spot in current erasure methods, it also provides a diagnostic tool for stress-testing future concept erasure techniques.
